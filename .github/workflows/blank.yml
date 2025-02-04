@@ -3,7 +3,7 @@ name: Meu Primeiro Workflow no Github Actions
 # Controls when the workflow will run
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
 
 jobs:
   job01:
