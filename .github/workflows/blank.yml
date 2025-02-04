@@ -21,4 +21,3 @@ jobs:
 
       - name: Step 4
       - run: echo "Olá, mundo! Este e o step 4"
-      
