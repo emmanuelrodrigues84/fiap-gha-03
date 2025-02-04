@@ -13,4 +13,13 @@ jobs:
     runs-on: self-hosted
     steps:
     - name: Step 1
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
+      
+    - name: Step 2
+      run: echo "Olá, mundo! Esta é o nosso primeiro job no GitHub Actions"
+
+    - name: Step 3
+      run: echo "Olá, mundo! Este e o step 3"
+
+    - name: Step 4
+      run: echo "Olá, mundo! Este e o step 4"
