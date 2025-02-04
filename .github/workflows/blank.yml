@@ -1,0 +1,24 @@
+name: Meu Primeiro Workflow no Github Actions
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  job01:
+    name: Executando o Job de teste
+    runs-on: self-hosted
+    steps:
+      - name: Step 1
+      - uses: actions/checkout@v4
+
+      - name: Step 2
+      - run: echo "Olá, mundo! Esta é o nosso primeiro job no GitHub Actions"
+
+      - name: Step 3
+      - run: echo "Olá, mundo! Este e o step 3"
+
+      - name: Step 4
+      - run: echo "Olá, mundo! Este e o step 4"
+      
